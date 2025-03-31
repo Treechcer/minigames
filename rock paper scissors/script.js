@@ -19,7 +19,7 @@ function emojify(move){ //returns emoji from input
 }
 
 function gameLoop(playerMove){ //functions for the whole minigame
-    let aiMove = aiPlayer() //generates AT move
+    let aiMove = aiPlayer() //generates AI move
     let win; //makes "win" undefined, so we don't have to make it in every if statement
 
     /*
