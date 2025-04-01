@@ -1,3 +1,8 @@
+## test
+
+![GitHub Repo stars](https://img.shields.io/github/stars/Treechcer/minigames?style=social)
+
+
 # introduction
 
 This is our project where we post our small games (that's why mini-games) in JS, HTML and CSS. We're newbie programmers.
