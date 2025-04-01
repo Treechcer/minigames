@@ -1,8 +1,11 @@
-.midBody{
+body{
     margin: 0;
     padding: 0;
-    display: flex;
     height: 100vh;
+}
+
+.midBody{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -35,4 +38,19 @@ button{
     border: 2px solid black;
     background-color:white;
     font-size: 15px;
+}
+
+.midHorizontal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li{
+    margin-right: 25px;
 }
