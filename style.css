@@ -54,3 +54,8 @@ a{
 li{
     margin-right: 25px;
 }
+
+.dice{
+    background-color: gray;
+    max-width: 100px;
+}
