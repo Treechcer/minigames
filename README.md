@@ -18,6 +18,7 @@ This is our project where we post our small games (that's why mini-games) in **J
     - [rock paper scissors](#rock-paper-scissors)
     - [dice roll](#dice-roll)
     - [hangman](#hangman)
+  - [contributions](#contributions)
 
 ## list of games
 
@@ -34,3 +35,7 @@ This is our project where we post our small games (that's why mini-games) in **J
 
 ### hangman
   - not finished yet
+
+## contributions 
+
+If you have any idea*s for ne mini-games, design, improvements or any other stuff, feel free to **open issue** or submit a **pull request**!
