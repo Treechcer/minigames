@@ -15,8 +15,8 @@
     }
 
     .box {
-        width: 400px;
-        height: 500px;
+        width: 600px;
+        height: 700px;
         background-color: lightblue;
         border: 2px solid black;
         display: flex;
@@ -41,13 +41,19 @@
         top: 10px;
         left: 10px;
         font-weight: bold;
+        font-size: 20px;
+    }
+    button{
+        font-size: 17px;
     }
     </style>    
 </head>
 <body>
     <div class="box">
         <p id="zivoty">  Guesess left: </p>
-        <input type="text" placeholder="Guess words here...">
+        <input type="text" placeholder="write your word here" id="wordInput">
+        <input type="text" placeholder="Guess letters here" id="letterInput">
+        <button onclick="submit()"> Submit</button>
     </div>  
 </body>
 </html>
