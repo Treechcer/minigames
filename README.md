@@ -3,7 +3,6 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/Treechcer/minigames?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Treechcer/minigames?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/Treechcer/minigames)
-![GitHub branches](https://img.shields.io/badge/branches-5-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Treechcer/minigames)
 
 
