@@ -1,11 +1,10 @@
-function rollTheDice(){
+function rollTheDice(){ //function that generates numbers from 1-6
     return Math.ceil(Math.random() * 6)
 }
 
-function gameLoop(){
-    var num = rollTheDice()
-    num = 6
-    if (num == 1){
+function gameLoop(){ //main logic of the dice roller
+    var num = rollTheDice() //"rolls the dice"
+    if (num == 1){ //it hides the balls to make the numbers, all of them does this
         for (let i = 1; i < 10; i++){
             if (i == 5){
                 continue
