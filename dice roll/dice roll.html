@@ -6,13 +6,15 @@
     <title>Document</title>
     <link href="/style.css" rel="stylesheet">
 </head>
-<body>
-    <div class="dice">
-        <div><p> <span id="1"> 🔴 </span><span id="2"> 🔴 </span><span id="3"> 🔴 </span> </p></div>
-        <div><p> <span id="4"> 🔴 </span><span id="5"> 🔴 </span><span id="6"> 🔴 </span> </p></div>
-        <div><p> <span id="7"> 🔴 </span><span id="8"> 🔴 </span><span id="9"> 🔴 </span> </p></div>
+<body class="midBody">
+    <div class="middle">
+        <div class="dice">
+            <div><p> <span id="1"> 🔴 </span><span id="2"> 🔴 </span><span id="3"> 🔴 </span> </p></div>
+            <div><p> <span id="4"> 🔴 </span><span id="5"> 🔴 </span><span id="6"> 🔴 </span> </p></div>
+            <div><p> <span id="7"> 🔴 </span><span id="8"> 🔴 </span><span id="9"> 🔴 </span> </p></div>
+        </div>
+        <button onclick="gameLoop()"> roll the dice! </button>
     </div>
-    <button onclick="gameLoop()"> roll the dice! </button>
     <script src="script.js"></script>
 </body>
 </html>
