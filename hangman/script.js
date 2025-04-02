@@ -40,3 +40,5 @@ function submit() {
         document.getElementById("output").innerText = `Game over! The word was: ${word}`;
     }
 }
+//make an actual finish, make it so that when the word has multiple of the same letters it takes them all
+//you cant guess the same letter twice function, aaaaand finally the fucking hangman
