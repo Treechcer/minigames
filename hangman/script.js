@@ -53,6 +53,10 @@ function submit() { /* This function submits the players guess, checks if the gu
         document.getElementById("output").innerText = `Game over! The word was: ${word}`;
     }
 }
-//udělat proměnou pro kontrolu jestli je hra v běhu nebo ne tak aby se nebrickla potom co omylen klikneš na start znovu dříve než skončí kolo
+
+/*
+TODO: make variable to controll if the game is running or nah so it doesn't brick
+*/
+
 //add the fucking hangman picture
 //hide the word after you start the game
