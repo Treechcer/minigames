@@ -6,16 +6,23 @@
     <title>Document</title>
     <link href="/style.css" rel="stylesheet">
 </head>
-<body class="midBody">
-    <div class="middle">
-        <h1> Rock Paper Scissors </h1>
-        <button onclick="gameLoop('rock')"> rock 🪨</button>
-        <button onclick="gameLoop('paper')"> paper 📄</button>
-        <button onclick="gameLoop('scissors')"> scissors ✂️ </button>
+<body>
+    <div class="container">
+        <div class="backToMain">
+            <a href="/index.html"> back to index</a>
+        </div>
+        <div class="midBody">
+            <div class="middle">
+                <h1> Rock Paper Scissors </h1>
+                <button onclick="gameLoop('rock')"> rock 🪨</button>
+                <button onclick="gameLoop('paper')"> paper 📄</button>
+                <button onclick="gameLoop('scissors')"> scissors ✂️ </button>
 
-        <p id="t"> <i> no game was played </i> </p>
-        <p> AI: <span id="a"> none </span>, player: <span id="p"> none </span></p> 
-        <p id="score"> 0:0 </p>
+                <p id="t"> <i> no game was played </i> </p>
+                <p> AI: <span id="a"> none </span>, player: <span id="p"> none </span></p> 
+                <p id="score"> 0:0 </p>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

@@ -1,18 +1,24 @@
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
-}
-
-.midBody{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     background: linear-gradient(#e66465, #9198e5);
 }
 
+.midBody{
+    margin: 0;
+    padding: 0;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .middle{
-    height: 35%;
+    display: flex;
+    height: 40%;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -21,6 +27,7 @@ body{
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 10px 10px rgb(45,45,45);
+    border: black solid 2px;
 }
 
 h1{
@@ -59,4 +66,25 @@ li{
 .dice{
     background-color: gray;
     max-width: 100px;
+}
+
+.backToMain{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 5%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(45,45,45);
+    border: black solid 2px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
