@@ -4,6 +4,11 @@ function rollTheDice(){ //function that generates numbers from 1-6
 
 function gameLoop(){ //main logic of the dice roller
     var num = rollTheDice() //"rolls the dice"
+
+    for (let i = 1; i < 10; i++){ // this makes it possible to roll it more times
+        document.getElementById(i).style.visibility = "visible"
+    }
+
     if (num == 1){ //it hides the balls to make the numbers, all of them does this
         for (let i = 1; i < 10; i++){
             if (i == 5){
