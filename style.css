@@ -20,6 +20,10 @@ body {
     display: flex;
     height: 40%;
     width: 50%;
+    max-width: 475px;
+    max-height: 475px;
+    min-width: 300px;
+    min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,9 +82,13 @@ li{
     align-items: center;
     background-color: lightgray;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 10px 10px rgb(45,45,45);
     border: black solid 2px;
+    min-width: 125px;
+    min-height: 25px;
+    max-width: 150px;
+    max-height: 25px;
 }
 
 .container {
