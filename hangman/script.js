@@ -3,7 +3,7 @@ let guessedLetters = [];
 let guesses = 13;
 let correctGuesses = new Set();
 
-function game() {
+function game() { /* This function is used to start the game, handle the inputs, reset the game and it also hides the word :D */
     word = document.getElementById("wordInput").value.toLowerCase();
     if (word === "") {
         alert("Please enter a word first!");
@@ -17,7 +17,8 @@ function game() {
     document.getElementById("wordInput").value= " No cheating :)";
 }
 
-function submit() {
+function submit() { /* This function submits the players guess, checks if the guess wasnt already guessed and also if there is more then one of the same letters in the word it will complete all of them
+                        it also obviously has the means to find out if you won or lost based on your guesses. */
     let guess = document.getElementById("guessInput").value.toLowerCase();
 
     if (guess.length !== 1 || !guess.match(/[a-z]/)) {
@@ -52,5 +53,6 @@ function submit() {
         document.getElementById("output").innerText = `Game over! The word was: ${word}`;
     }
 }
+//udělat proměnou pro kontrolu jestli je hra v běhu nebo ne tak aby se nebrickla potom co omylen klikneš na start znovu dříve než skončí kolo
 //add the fucking hangman picture
 //hide the word after you start the game
