@@ -16,6 +16,19 @@ body {
     align-items: center;
 }
 
+.box {
+    width: 600px;
+    height: 700px;
+    background-color: lightblue;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
 .middle{
     display: flex;
     height: 40%;
