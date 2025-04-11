@@ -83,6 +83,8 @@ li{
 .dice{
     background-color: gray;
     max-width: 100px;
+    border-radius: 15px;
+    border: black solid 3px;
 }
 
 .backToMain{
@@ -96,7 +98,7 @@ li{
     background-color: lightgray;
     flex-direction: column;
     border-radius: 12px;
-    box-shadow: 10px 10px rgb(45,45,45);
+    box-shadow: 5px 3px rgb(45,45,45);
     border: black solid 2px;
     min-width: 125px;
     min-height: 25px;
